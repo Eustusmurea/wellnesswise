@@ -22,15 +22,15 @@ import {
 } from '@/components/ui/table'
 import { GiHotMeal } from 'react-icons/gi';
 import { GoDotFill } from 'react-icons/go';
-import getBMI from '@/utils/caulculators/bmi';
-import CardiovascularWorkout from '@/utils/caulculators/cardiovascular_workout';
+import getBMI from '@/utils/calculators/bmi';
+import CardiovascularWorkout from '@/utils/calculators/cardiovascular_workout';
 import Link from 'next/link';
-import calculateCalories from '@/utils/caulculators/calories'
-import FatWorkout from '@/utils/caulculators/fat_workout';
+import calculateCalories from '@/utils/calculators/calories'
+import FatWorkout from '@/utils/calculators/fat_workout';
 import { PrismaClient } from '@prisma/client';
-import Factors from '@/utils/caulculators/factors';
-import MuscleWorkout from '@/utils/caulculators/muscle_workout';
-import getCompositionData from '@/utils/caulculators/composition';
+import Factors from '@/utils/calculators/factors';
+import MuscleWorkout from '@/utils/calculators/muscle_workout';
+import getCompositionData from '@/utils/calculators/composition';
 import {
   Sheet,
   SheetContent,
