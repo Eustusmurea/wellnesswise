@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className="text-4xl lg:text-6xl font-bold text-center leading-relaxed lg:leading-snug">
           Create a Full
           {' '}
-          <span className="text-sky-500">Fitness</span>
+          <span className="text-sky-500">Fitness Program 💪</span>
           {' '}
           in
           {' '}
@@ -19,8 +19,10 @@ export default function Home() {
         </h1>
 
         <p className="text-lg text-neutral-400 lg:px-24 mx-auto">
-          Get started with WellnessWise and take the first step towards a healthier, happier you. 
-          Our personalized workout programs, weight analytics, and body composition analytics are designed to help you achieve your fitness goals efficiently and effectively.
+          Unlock your potential and take charge of your fitness
+          journey with our cutting-edge fitness program generator.
+          Whether you&apos;re aiming to build strength, lose weight,
+          or enhance your overall well-being, our intuitive app has you covered.
         </p>
 
         <Link href="/start">

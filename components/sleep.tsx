@@ -34,7 +34,7 @@ export default function SleepCard(
         {/* AVG hours */}
         <div className="flex flex-col space-y-2">
           <Label htmlFor="age" className="text-lg">
-            How many sleep hours are you getting?
+            How many sleep hours are you getting ⏰ ?
           </Label>
           <Picker
             max={12}
@@ -52,7 +52,7 @@ export default function SleepCard(
         {/* morning vs night */}
         <div className="flex flex-col w-full space-y-2 text-lg">
           <Label htmlFor="gender" className="text-lg">
-            Are you a morning person or a night owl ?
+            Are you a morning person or a night owl 🌞🌙 ?
           </Label>
           <RadioGroup
             onValueChange={(e) => setAnswers({ ...answers, morning_or_night: e })}
@@ -70,7 +70,7 @@ export default function SleepCard(
                 htmlFor="male"
                 className="flex gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-3xl"></span>
+                <span className="text-3xl">☀️</span>
                 Morning
               </Label>
             </div>
@@ -86,7 +86,7 @@ export default function SleepCard(
                 htmlFor="female"
                 className="flex gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-3xl"></span>
+                <span className="text-3xl">🌑</span>
                 Night
               </Label>
             </div>
@@ -96,7 +96,7 @@ export default function SleepCard(
         {/* screen time */}
         <div className="flex flex-col space-y-2 text-lg">
           <Label htmlFor="name" className="text-lg">
-            Do you spend screen time before bed  ?
+            Do you spend screen time before bed 📱 ?
           </Label>
           <RadioGroup
             onValueChange={(e) => setAnswers({ ...answers, screen_time: e })}
@@ -117,7 +117,7 @@ export default function SleepCard(
         {/* difficulty falling asleep */}
         <div className="flex flex-col space-y-2 text-lg">
           <Label htmlFor="name" className="text-lg">
-            Do you experience any difficulty falling asleep ?
+            Do you experience any difficulty falling asleep 😫 ?
           </Label>
           <RadioGroup
             onValueChange={(e) => setAnswers({ ...answers, difficulty_falling_asleep: e })}
@@ -162,7 +162,7 @@ export default function SleepCard(
           {/* wake-up time */}
           <div className="flex flex-col space-y-1.5 w-full h-full">
             <Label htmlFor="name" className="text-lg text-center">
-              At what time you usually wake-up ?
+              At what time you usually wake-up 🙂 ?
             </Label>
             <LocalizationProvider dateAdapter={AdapterDayjs}>
               <TimeClock

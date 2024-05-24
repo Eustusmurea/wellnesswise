@@ -1,5 +1,5 @@
 // imports
-import type { stepType } from '../../Downloads/alx/BestShape/types.h';
+import type { stepType } from '@/types.h';
 
 const steps_list: stepType[] = [
   {

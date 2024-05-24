@@ -36,9 +36,9 @@ const reducer = (
         step_num: state.step_num + 1,
         is_previous_btn: true,
         animation: 'animate__fadeInRight',
-        is_next_btn: state.step_num !== steps_list.length - 2,
+        is_next_btn: state.step_num === steps_list.length - 2 ? false : true,
         is_generate_btn:
-          state.step_num === steps_list.length - 2,
+          state.step_num === steps_list.length - 2 ? true : false,
       };
 
     case 'PREVIOUS_STEP':
@@ -46,7 +46,7 @@ const reducer = (
         ...state,
         step_num: state.step_num - 1,
         animation: 'animate__fadeInLeft',
-        is_previous_btn: !!(state.step_num - 1),
+        is_previous_btn: state.step_num - 1 ? true : false,
         is_next_btn: true,
         is_generate_btn: false,
       };
@@ -74,7 +74,7 @@ const reducer = (
       };
 
     case 'LOAD_COMPONENT':
-      const tmp = state.steps_list.map((elt: { id: any; }) => {
+      const tmp = state.steps_list.map((elt) => {
         if (elt.id === action.payload.id)
           return {
             ...elt,
@@ -82,8 +82,6 @@ const reducer = (
           };
         return elt;
       });
-      // @ts-ignore
-      // @ts-ignore
       return {
         ...state,
         steps_list: tmp,
