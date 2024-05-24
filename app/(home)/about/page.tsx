@@ -56,6 +56,14 @@ export default function AboutPage() {
             choices and adjustments to optimize your fitness routine.
           </p>
         </div>
+        <div
+          style={{
+            position: 'absolute', bottom: 0, left: 0, right: 0,
+          }}
+          className="text-neutral-400 text-sm text-center"
+        >
+          Eustus@2024
+        </div>
       </div>
     </div>
   )

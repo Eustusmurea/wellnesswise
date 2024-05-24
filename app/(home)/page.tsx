@@ -7,15 +7,15 @@ export default function Home() {
       {/* header */}
       <div className="flex flex-col gap-6 lg:gap-12 text-center w-full mx-auto">
         <h1 className="text-4xl lg:text-6xl font-bold text-center leading-relaxed lg:leading-snug">
-          Create a Full
+          Welcome to WellnessWise and Create Your
           {' '}
           <span className="text-sky-500">Fitness Program</span>
           {' '}
           in
           {' '}
-          <span className="text-sky-500">30</span>
+          <span className="text-sky-500">Less than a</span>
           {' '}
-          Seconds
+          Minute
         </h1>
 
         <p className="text-lg text-neutral-400 lg:px-24 mx-auto">
@@ -26,6 +26,15 @@ export default function Home() {
         <Link href="/start">
           <Button size="lg" className="w-60 mt-16 py-7 text-xl animate__animated animate__infinite animate__pulse rounded-full shadow-lg mx-auto">Start Now</Button>
         </Link>
+        <div
+          style={{
+            position: 'absolute', bottom: 0, left: 0, right: 0,
+          }}
+          className="text-neutral-400 text-sm text-center"
+        >
+          Eustus@2024
+        </div>
+
       </div>
     </div>
   )

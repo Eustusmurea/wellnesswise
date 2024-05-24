@@ -36,7 +36,7 @@ export default function BasicInfoCard({
     updateAnswer(id, answers);
     if (answers.is_fat_accurate !== null) allowNext()
     else blockNext()
-  }, [answers]);
+  }, [allowNext, answers, blockNext, id, updateAnswer]);
 
   // returns
   return (
