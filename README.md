@@ -1,4 +1,10 @@
-## Full Fitness Program Generator
+## WellnessWise
+
+#### Description:
+
+WellnessWise is a comprehensive health and fitness tracker aimed at empowering users to achieve their fitness goals by providing tools for exercise logging, goal setting, and progress tracking. With an intuitive interface and robust backend, FitTrack offers users the ability to monitor their fitness journey effectively.
+
+## Technologies used
 
 **✅Next.js 13 app router**
 **✅TailwindCss**
@@ -7,18 +13,3 @@
 **✅Lottie**
 **✅MongoDB**
 
-👉 [Live Demo](https://bestshape.fit) 👈
-
-👉 [Check out this YouTube video about the project](https://youtu.be/XZBETa-s_mY) 👈
-
-![Home Page](https://i.imgur.com/FZvpCtP.png)
-
-![Start Page](https://i.imgur.com/u8d4VTH.png)
-
-![Program Page](https://i.imgur.com/QfI6oNF.png)
-
-![Program Page](https://i.imgur.com/yUrDzPb.png)
-
-![Program Page](https://i.imgur.com/COQysan.png)
-
-![Program Page](https://i.imgur.com/FVAxWg0.png)

@@ -3,11 +3,11 @@ export default function AboutPage() {
     <div className="px-6 lg:w-5/6 xl:w-4/6 py-10 mx-auto">
       <div className="space-y-12 text-md md:text-lg text-gray-500 pb-4 md:pb-8">
         <p>
-          Introducing BestShape, the Ultimate Fitness Companion 💪
+          Introducing WellnessWise, the Ultimate Fitness Companion
         </p>
         <div className="space-y-2">
           <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-            💪 Workout Program
+            Workout Program
           </h2>
           <p>
             Our tailored workout programs are designed to help you achieve
@@ -21,7 +21,7 @@ export default function AboutPage() {
 
         <div className="space-y-2">
           <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-            🥗 Diet Program
+            Diet Program
           </h2>
           <p>
             Achieve optimal results with our personalized diet programs that complement
@@ -34,7 +34,7 @@ export default function AboutPage() {
 
         <div className="space-y-2">
           <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-            📊   Weight Analytics
+            Weight Analytics
           </h2>
           <p>
             Stay informed about your progress with our advanced weight analytics.
@@ -47,7 +47,7 @@ export default function AboutPage() {
 
         <div className="space-y-2">
           <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-            🏋️‍♀️ Body Composition Analytics
+            Body Composition Analytics
           </h2>
           <p>
             Understand your body better with our in-depth body composition analytics.
