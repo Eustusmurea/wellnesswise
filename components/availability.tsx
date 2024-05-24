@@ -89,7 +89,7 @@ export default function AvailabilityCard(
 
         {/* days */}
         <div className="flex flex-col space-y-2">
-          <Label htmlFor="age" className="text-lg">How many days a week are you willing to commit to your fitness routine 🗓️ ?</Label>
+          <Label htmlFor="age" className="text-lg">How many days a week are you willing to commit to your fitness routine ?</Label>
           <Picker
             max={7}
             min={2}
@@ -122,7 +122,7 @@ export default function AvailabilityCard(
         {/* time */}
         <div className="flex flex-col w-full space-y-1.5">
           <Label htmlFor="gender" className="text-lg">
-            Do you have any time constraints or scheduling preferences for your workouts ⏰📅 ?
+            Do you have any time constraints or scheduling preferences for your workouts ?
           </Label>
           <RadioGroup
             onValueChange={(e) => setAnswers({ ...answers, schedule: e })}
@@ -140,7 +140,7 @@ export default function AvailabilityCard(
                 htmlFor="anytime"
                 className="flex gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-3xl text-center">🌍</span>
+                <span className="text-3xl text-center"></span>
                 Anytime
               </Label>
             </div>

@@ -61,7 +61,7 @@ export default function DietCard(
                 htmlFor="yes"
                 className="flex h-full text-center text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-3xl">👍</span>
+                <span className="text-3xl" />
                 Yes
                 <span className="text-neutral-400 text-sm text-center font-normal">
                   I can give any time needed to prep my meals
@@ -80,7 +80,7 @@ export default function DietCard(
                 htmlFor="maybee"
                 className="flex h-full text-center text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-3xl">🤔</span>
+                <span className="text-3xl" />
                 Maybee
                 <span className="text-neutral-400 text-sm text-center font-normal">
                   I have only small time to prep my meals (in the morning, evening, etc...)
@@ -99,7 +99,7 @@ export default function DietCard(
                 htmlFor="no"
                 className="flex h-full text-center text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-3xl">👎</span>
+                <span className="text-3xl" />
                 No
                 <span className="text-neutral-400 text-sm text-center font-normal">
                   I don&apos;t have anytime during the day to prep my meals

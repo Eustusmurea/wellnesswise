@@ -38,8 +38,8 @@ export default function StepBar({
   const initial_road: roadType = {
     breakpoints: initial_breakpoints,
     current_breakpoint: initial_breakpoints[0],
-    start_icon: <span>🚀</span>,
-    finish_icon: <span>⛳️</span>,
+    start_icon: <span />,
+    finish_icon: <span />,
   };
   const [road, setRoad] = useState<roadType>(initial_road);
   const [breakpoints, setBPs] = useState<breakpointType[]>(initial_breakpoints);
@@ -82,7 +82,7 @@ export default function StepBar({
           variant="secondary"
           className="lg:w-32 xl:w-40 2xl:w-44 lg:py-6 xl:py-7 2xl:py-8 text-lg xl:text-xl"
         >
-          👈 Previous
+          Previous
         </Button>
       )}
       <Road data={road} />
@@ -107,7 +107,7 @@ export default function StepBar({
             is_blocked ? '' : 'animate__pulse'
           } animate__infinite`}
         >
-          Next 👉
+          Next
         </Button>
       )}
       {is_generate_btn && (
@@ -115,7 +115,7 @@ export default function StepBar({
           onClick={generateProgram}
           className="lg:w-32 xl:w-40 2xl:w-44 lg:py-6 xl:py-7 2xl:py-8 text-lg xl:text-xl"
         >
-          Let&apos;s Go 🚀
+          Let&apos;s Go
         </Button>
       )}
     </div>

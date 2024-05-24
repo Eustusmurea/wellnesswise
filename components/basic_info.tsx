@@ -61,11 +61,11 @@ export default function BasicInfoCard({
         {/* Age */}
         <div className="flex flex-col space-y-3">
           <Label htmlFor="age" className="text-md lg:text-lg">
-            How old are you 🎂 ?
+            How old are you  ?
           </Label>
           <Picker
             max={99}
-            min={18}
+            min={12}
             tag="years old"
             value={answers.age}
             onAdd={() => setAnswers({ ...answers, age: answers.age + 1 })}
@@ -91,7 +91,7 @@ export default function BasicInfoCard({
                 htmlFor="M"
                 className="flex relative h-full text-center text-xl lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary peer-data-[state=checked]:bg-secondary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-2xl lg:text-3xl">🧑</span>
+                <span className="text-2xl lg:text-3xl" />
                 Male
               </Label>
             </div>
@@ -107,7 +107,7 @@ export default function BasicInfoCard({
                 htmlFor="female"
                 className="flex h-full text-center text-xl lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-2xl lg:text-3xl">👩</span>
+                <span className="text-2xl lg:text-3xl" />
                 Female
               </Label>
             </div>
@@ -118,7 +118,7 @@ export default function BasicInfoCard({
         <div className="flex flex-col lg:flex-row w-full gap-4 h-full">
           <div className="flex flex-col space-y-2 w-full h-full">
             <Label htmlFor="age" className="text-md lg:text-lg">
-              Height 📏
+              Height
             </Label>
             <Picker
               max={270}
@@ -209,7 +209,7 @@ export default function BasicInfoCard({
                   htmlFor="ultralean"
                   className="flex h-full text-center text-lg lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
                 >
-                  <span className="text-3xl">💪🏋️‍♂️🔥</span>
+                  <span className="text-3xl" />
                   Ultra Lean
                   <span className="text-neutral-400 text-sm text-center font-normal">
                     1% - 5% body fat
@@ -228,7 +228,7 @@ export default function BasicInfoCard({
                   htmlFor="verylean"
                   className="flex h-full text-center text-lg lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
                 >
-                  <span className="text-3xl">🏃‍♂️💨👌</span>
+                  <span className="text-3xl" />
                   Very Lean
                   <span className="text-neutral-400 text-sm text-center font-normal">
                     6% - 10% body fat
@@ -247,7 +247,7 @@ export default function BasicInfoCard({
                   htmlFor="lean"
                   className="flex h-full text-center text-lg lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
                 >
-                  <span className="text-3xl">🏋️‍♀️🥗💫</span>
+                  <span className="text-3xl" />
                   Lean
                   <span className="text-neutral-400 text-sm text-center font-normal">
                     11% - 15% body fat
@@ -266,7 +266,7 @@ export default function BasicInfoCard({
                   htmlFor="moderatelylean"
                   className="flex h-full text-center text-lg lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
                 >
-                  <span className="text-3xl">🚴‍♂️🥦🏋️‍♀️</span>
+                  <span className="text-3xl" />
                   Moderately Lean
                   <span className="text-neutral-400 text-sm text-center font-normal">
                     16% - 20% body fat
@@ -285,7 +285,7 @@ export default function BasicInfoCard({
                   htmlFor="healthy"
                   className="flex h-full text-center text-lg lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
                 >
-                  <span className="text-3xl">🏃‍♀️🍏😊</span>
+                  <span className="text-3xl" />
                   Healthy
                   <span className="text-neutral-400 text-sm text-center font-normal">
                     21% - 25% body fat
@@ -304,7 +304,7 @@ export default function BasicInfoCard({
                   htmlFor="moderatelyoverweight"
                   className="flex h-full text-center text-lg lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
                 >
-                  <span className="text-3xl">🏋️‍♂️🍔😬</span>
+                  <span className="text-3xl" />
                   Moderately Overweight
                   <span className="text-neutral-400 text-sm text-center font-normal">
                     26% - 30% body fat
@@ -323,7 +323,7 @@ export default function BasicInfoCard({
                   htmlFor="overweight"
                   className="flex h-full text-center text-lg lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
                 >
-                  <span className="text-3xl">🍔🍕😓</span>
+                  <span className="text-3xl" />
                   Overweight
                   <span className="text-neutral-400 text-sm text-center font-normal">
                     31% - 35% body fat
@@ -342,7 +342,7 @@ export default function BasicInfoCard({
                   htmlFor="obese"
                   className="flex h-full text-center text-lg lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
                 >
-                  <span className="text-3xl">🍔🍟😔</span>
+                  <span className="text-3xl" />
                   Obese
                   <span className="text-neutral-400 text-sm text-center font-normal">
                     36% - 40% body fat
@@ -361,7 +361,7 @@ export default function BasicInfoCard({
                   htmlFor="extremly_obese"
                   className="flex h-full text-center text-lg lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
                 >
-                  <span className="text-3xl">🍔🍟🆘</span>
+                  <span className="text-3xl" />
                   Extremly obese
                   <span className="text-neutral-400 text-sm text-center font-normal">
                     41% and above body fat

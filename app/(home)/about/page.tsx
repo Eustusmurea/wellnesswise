@@ -3,19 +3,18 @@ export default function AboutPage() {
     <div className="px-6 lg:w-5/6 xl:w-4/6 py-10 mx-auto">
       <div className="space-y-12 text-md md:text-lg text-gray-500 pb-4 md:pb-8">
         <p>
-          Introducing WellnessWise, the Ultimate Fitness Companion
+          WellnessWise
         </p>
         <div className="space-y-2">
           <h2 className="text-xl md:text-2xl font-medium text-gray-700">
             Workout Program
           </h2>
           <p>
-            Our tailored workout programs are designed to help you achieve
-            your fitness goals efficiently and effectively. Whether you&apos;re
-            aiming to build muscle, increase endurance, or improve overall
-            fitness, our diverse range of workouts ensures that you have
-            access to a comprehensive and personalized exercise regimen
-            that fits your needs and schedule.
+            Our fitness experts have designed a range of workout routines
+            that cater to different fitness levels and objectives. Whether you're
+            looking to build muscle, lose weight, or improve your overall fitness,
+            our programs are tailored to help you reach your goals effectively
+            and efficiently.
           </p>
         </div>
 

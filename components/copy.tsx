@@ -24,7 +24,7 @@ export default function CopyLink({ params }: { params: any }) {
   }, [is_copied])
 
   const copy = () => {
-    navigator.clipboard.writeText(`https://bestshape.fit/program/${params.slug}`)
+    navigator.clipboard.writeText(`https://wellnesswise.fit/program/${params.slug}`)
     setIsCopied(true)
   }
 
@@ -36,7 +36,7 @@ export default function CopyLink({ params }: { params: any }) {
       </CardHeader>
       <CardContent>
         <div className="flex flex-col lg:flex-row gap-2 items-center">
-          <Input contentEditable={false} value={`https://bestshape.fit/program/${params.slug}`} />
+          <Input contentEditable={false} value={`https://wellnesswise.fit/program/${params.slug}`} />
           <div className="relative">
             <Button onClick={copy} className="w-32">Copy Link</Button>
             {is_copied && (

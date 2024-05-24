@@ -26,7 +26,7 @@ export default function Lifestyle(
       <div className="grid w-full items-center gap-12">
         {/* active */}
         <div className="flex flex-col w-full space-y-1.5">
-          <Label htmlFor="gender" className="text-lg">How active are you during the day 🏃‍♂️ ?</Label>
+          <Label htmlFor="gender" className="text-lg">How active are you during the day  ?</Label>
           <RadioGroup
             onValueChange={(e) => setAnswers({ ...answers, activity: e })}
             defaultValue={answers.activity}
@@ -39,7 +39,7 @@ export default function Lifestyle(
                 htmlFor="none"
                 className="flex h-full text-center text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-3xl">💻</span>
+                <span className="text-3xl" />
                 No movements at all
                 <span className="text-neutral-400 text-sm text-center font-normal">I spend almost all day on my desk</span>
               </Label>
@@ -52,7 +52,7 @@ export default function Lifestyle(
                 htmlFor="low"
                 className="flex h-full text-center text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-3xl">🧘‍♂️</span>
+                <span className="text-3xl" />
                 Few movements
                 <span className="text-neutral-400 text-sm text-center font-normal">I take a break from time to time to do physical movements</span>
               </Label>
@@ -65,7 +65,7 @@ export default function Lifestyle(
                 htmlFor="moderate"
                 className="flex h-full text-center text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-3xl">⚡️</span>
+                <span className="text-3xl" />
                 Moderately Active
                 <span className="text-neutral-400 text-sm text-center font-normal">I spend an average of 60 minutes a day doing physical activities </span>
               </Label>
@@ -78,7 +78,7 @@ export default function Lifestyle(
                 htmlFor="active"
                 className="flex h-full text-center text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-3xl">🔥</span>
+                <span className="text-3xl" />
                 Very Active
                 <span className="text-neutral-400 text-sm text-center font-normal">I spend a big amount of time doing physical activities</span>
               </Label>
@@ -89,7 +89,7 @@ export default function Lifestyle(
         {/* Sun */}
         <div className="flex flex-col space-y-1.5 text-lg">
           <Label htmlFor="name" className="text-lg">
-            Are you exposed to enough time (30 to 45 minutes) of natural light during the day 🌞 ?
+            Are you exposed to enough time (30 to 45 minutes) of natural light during the day ?
           </Label>
           <RadioGroup
             onValueChange={(e) => setAnswers({ ...answers, natural_light: e })}
@@ -110,7 +110,7 @@ export default function Lifestyle(
         {/* coffee */}
         <div className="flex flex-col space-y-1.5 text-lg">
           <Label htmlFor="name" className="text-lg">
-            Do you consume lot of coffee ☕️ ?
+            Do you consume lot of coffee ?
           </Label>
           <RadioGroup
             onValueChange={(e) => setAnswers({ ...answers, coffee: e })}
@@ -131,7 +131,7 @@ export default function Lifestyle(
         {/* alcohol */}
         <div className="flex flex-col space-y-1.5 text-lg">
           <Label htmlFor="name" className="text-lg">
-            What about alcohol 🍷 ?
+            What about alcohol ?
           </Label>
           <RadioGroup
             onValueChange={(e) => setAnswers({ ...answers, alcohol: e })}
@@ -164,7 +164,7 @@ export default function Lifestyle(
                 htmlFor="beginner"
                 className="flex h-full text-center text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-3xl">👶</span>
+                <span className="text-3xl" />
                 Beginner
                 <span className="text-neutral-400 text-sm text-center font-normal">I have very limited or no experience</span>
               </Label>
@@ -190,7 +190,7 @@ export default function Lifestyle(
                 htmlFor="advanced"
                 className="flex h-full text-center text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
               >
-                <span className="text-3xl">🏋️‍♂️</span>
+                <span className="text-3xl" />
                 Advanced
                 <span className="text-neutral-400 text-sm text-center font-normal">I have a high level of experience in fitness</span>
               </Label>

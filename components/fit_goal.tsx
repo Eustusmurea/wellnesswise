@@ -41,7 +41,7 @@ export default function FitGoal({
       {/* Fitness goal */}
       <div className="flex flex-col space-y-3">
         <Label htmlFor="name" className="text-md lg:text-lg">
-          Choose your fitness goal 🎯
+          Choose your fitness goal
         </Label>
 
         <RadioGroup
@@ -153,7 +153,7 @@ export default function FitGoal({
               htmlFor="low"
               className="flex h-full text-center text-lg lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
             >
-              <span className="text-3xl">🧘‍♂️</span>
+              <span className="text-3xl" />
               Few movements
               <span className="text-neutral-400 text-sm text-center font-normal">I take a break from time to time to do physical movements</span>
             </Label>
@@ -166,7 +166,7 @@ export default function FitGoal({
               htmlFor="moderate"
               className="flex h-full text-center text-lg lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
             >
-              <span className="text-3xl">⚡️</span>
+              <span className="text-3xl" />
               Moderately Active
               <span className="text-neutral-400 text-sm text-center font-normal">I spend an average of 60 minutes a day doing physical activities </span>
             </Label>
@@ -179,7 +179,7 @@ export default function FitGoal({
               htmlFor="active"
               className="flex h-full text-center text-lg lg:text-2xl gap-2 flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
             >
-              <span className="text-3xl">🔥</span>
+              <span className="text-3xl" />
               Very Active
               <span className="text-neutral-400 text-sm text-center font-normal">I spend a big amount of time doing physical activities</span>
             </Label>

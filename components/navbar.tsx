@@ -13,12 +13,6 @@ import { Button } from './ui/button';
 export default function Navbar({ className }: { className: string }) {
   return (
     <div className={`flex py-6 justify-between items-center ${className} w-full`}>
-      {/* LOGO */}
-      <div className="w-36 md:w-40 xl:w-60">
-        <Link href="/">
-          <Image alt="logo" width={200} height={200} src="/images/logo.svg" />
-        </Link>
-      </div>
 
       {/* LINKS */}
       <NavigationMenu className="justify-between mx-auto w-2/6 hidden md:flex">
