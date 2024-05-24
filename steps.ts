@@ -4,8 +4,8 @@ import type { stepType } from '@/types.h';
 const steps_list: stepType[] = [
   {
     id: 'BasicInfoCard',
-    icon: '📝',
-    title: 'Personal Informations 📝',
+    icon: '',
+    title: 'Personal Information',
     description: 'We need some basic informations from you to start',
     component: null,
     answers: {
@@ -22,9 +22,9 @@ const steps_list: stepType[] = [
     },
   },
   {
-    id: 'FitGoal',
-    icon: '🏃',
-    title: 'Fitness Goal 🏃',
+    id: 'FitnessGoal',
+    icon: '',
+    title: 'Fitness Goal',
     description: 'What do you want to achieve in your new fitness journey',
     component: null,
     answers: {
